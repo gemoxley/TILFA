@@ -24,12 +24,22 @@ p{
     color: white;
     font-size: 64px;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-style: normal;
     color: white;
     font-size: 128px;
+}
+h2{
+    font-family: "Beth Ellen", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 64px;
 }
 .back{
     color: #44C7FF;
@@ -46,10 +56,17 @@ h1{
 }
 .blue{
     color: #44C7FF;
+    text-decoration: none;
 }
 .pink{
     color: #FFA7F6;
+    text-decoration: none;
 }
 .white{
     color: white;
+    text-decoration: none;
+}
+.gold{
+    color: #FFCA41;
+    text-decoration: none;
 }
