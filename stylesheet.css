@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-image: url('Black_Paper\ 1.png');
+    background-size: cover;
+    background-position: center;
+}
+.beth-ellen-regular{
+    font-family: "Beth Ellen", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.josefin-slab-bold{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 64px;
+}
+h1{
+    font-family: "Beth Ellen", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 128px;
+}
+.back{
+    color: #44C7FF;
+    text-decoration: none;
+}
+.advance{
+    color: #FFA7F6;
+    text-decoration: none;
+}
+.italic {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
