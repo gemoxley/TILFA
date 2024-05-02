@@ -33,6 +33,9 @@ h1{
     font-style: normal;
     color: white;
     font-size: 120px;
+    grid-row: 1 / span 8;
+    margin: 0;
+    text-align: center;
 }
 h2{
     font-family: "Beth Ellen", cursive;
@@ -70,3 +73,20 @@ h2{
     color: #FFCA41;
     text-decoration: none;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .grid-item {
+    background-color: #FFCA41;
+  }
+  .across{
+    grid-column: 2 / span 8;
+    grid-row: 3 / span 8;
+    margin: 0;
+  }
