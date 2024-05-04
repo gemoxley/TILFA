@@ -84,20 +84,6 @@ h2{
     width: 100%;
     margin: 0 auto;
 }
-.back a {
-    text-decoration: none;
-    color: #44C7FF;
-}
-.back a:hover {
-    text-decoration: underline !important;
-}
-.advance a {
-    text-decoration: none;
-    color: #FFA7F6;
-}
-.advance a:hover {
-    text-decoration: underline !important;
-}
 .sad {
     grid-column: 2 / span 8;
     grid-row: 1 / span 8;
@@ -139,4 +125,18 @@ h2{
     grid-column: 2 / span 8;
     grid-row: 4 / span 8;
     margin: 0;
+}
+.cry a {
+    text-decoration: none;
+    color: #44C7FF;
+}
+.cry a:hover {
+    text-decoration: underline !important;
+}
+.fact a {
+    text-decoration: none;
+    color: #FFA7F6;
+}
+.fact a:hover {
+    text-decoration: underline !important;
 }
