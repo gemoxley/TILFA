@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
 
-body{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
     background-image: url('Black_Paper\ 1.png');
     background-size: cover;
     background-position: center;
-    margin: 0; 
-    padding: 0; 
+}
+canvas-container {
+    grid-column: 7 / span 8;
+    grid-row: 4 / span 8;
+    margin: 0;
 }
 canvas {
-    display: block; 
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
 }
-.beth-ellen-regular{
+.beth-ellen-regular {
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-.josefin-slab-bold{
-  font-family: "Josefin Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
-p{
+.josefin-slab-bold {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+p {
     font-family: "Josefin Slab", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -30,10 +43,10 @@ p{
     color: white;
     font-size: 60px;
 }
-a{
+a {
     text-decoration: none;
 }
-h1{
+h1 {
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-style: normal;
@@ -43,18 +56,18 @@ h1{
     margin: 0;
     text-align: center;
 }
-h2{
+h2 {
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-style: normal;
     color: white;
     font-size: 80px;
 }
-.back{
+.back {
     color: #44C7FF;
     text-decoration: none;
 }
-.advance{
+.advance {
     color: #FFA7F6;
     text-decoration: none;
 }
@@ -63,19 +76,19 @@ h2{
     color: white;
     text-decoration: none;
 }
-.blue{
+.blue {
     color: #44C7FF;
     text-decoration: none;
 }
-.pink{
+.pink {
     color: #FFA7F6;
     text-decoration: none;
 }
-.white{
+.white {
     color: white;
     text-decoration: none;
 }
-.gold{
+.gold {
     color: #FFCA41;
     text-decoration: none;
 }
@@ -84,63 +97,58 @@ h2{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     gap: 20px;
-    width: 100%vw;
-    height: 100%vh;
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 .phrase {
     grid-column: 2 / span 8;
-    grid-row: 4 / span 8;
-    margin: 0;
-}
-.expectancy {
-    grid-column: 3 / span 8;
-    grid-row: 3 / span 8;
+    grid-row: 2 / span 8;
     margin: 0;
 }
 .life {
-    grid-column: 6 / span 8;
-    grid-row: 6 / span 8;
+    grid-column: 3 / span 8;
+    grid-row: 3 / span 8;
     margin: 0;
-}
-.love {
-    grid-column: 6 / span 8;
-    grid-row: 6 / span 8;
-    margin: 0;
-}
-.boston-star {
-    grid-column: 6 / span 8;
-    grid-row: 4/ span 8;
-    margin: 0;
-    z-index: 1;
 }
 .boston {
     grid-column: 6 / span 8;
     grid-row: 4 / span 8;
     margin: 0;
-    z-index: 0;
+    z-index: 1;
+}
+.boston-star {
+    grid-column: 6 / span 8;
+    grid-row: 2 / span 8;
+    margin: 0;
+    z-index: 2;
 }
 .sexy {
-    grid-column: 2 / span 8;
-    grid-row: 5 / span 8;
-    margin: 0;
-}
-.beautiful {
     grid-column: 3 / span 8;
-    grid-row: 6 / span 8;
+    grid-row: 2 / span 8;
     margin: 0;
 }
-.life a {
+.life {
+    grid-column: 3 / span 8;
+    grid-row: 1 / span 8;
+    margin: 0;
+}
+.love {
+    grid-column: 3 / span 8;
+    grid-row: 1 / span 8;
+    margin: 0;
+}
+.across a {
     text-decoration: none;
     color: #44C7FF;
 }
-.life a:hover {
+.across a:hover {
     text-decoration: underline;
 }
-.love a {
+.advance a {
     text-decoration: none;
     color: #FFA7F6;
 }
-.love a:hover {
+.advance a:hover {
     text-decoration: underline;
 }
