@@ -126,7 +126,21 @@ h2{
     margin: 0;
 }
 .course {
-    grid-column: 2 / span 8;
-    grid-row: 5 / span 8;
+    grid-column: 6 / span 8;
+    grid-row: 6 / span 8;
     margin: 0;
+}
+.pose a {
+    text-decoration: none;
+    color: #44C7FF;
+}
+.pose a:hover {
+    text-decoration: underline !important;
+}
+.compose a {
+    text-decoration: none;
+    color: #FFA7F6;
+}
+.compose a:hover {
+    text-decoration: underline !important;
 }
