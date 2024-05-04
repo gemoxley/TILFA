@@ -10,33 +10,33 @@ function preload() {
   customFont = loadFont('JosefinSlab-VariableFont_wght.tff');
   img = loadImage('Yellow Star.png');
 }
+
 function setup() {
-  let canvas = createCanvas(400, 400);
-  canvas.parent('canvas-container');
-}
-function resized() {
-  createCanvas(windowWidth, windowHeight);
-}
-function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(400, 400);
   textFont(customFont);
   textSize(60);
-  background(0, 0, 0, 0);
 }
+
 function draw() {
+  background(0, 0, 0, 0);
   image(img, 400, 400, 200, 200);
   text(typedMessage, 50, 50);
-  typedMessage = "In order to best navigate this website, click on solid pink words to proceed to the next page when you're finished reading.";
-  index = 0;
-  setTimeout(typeWriter, typingSpeed);
 }
+
 function mousePressed() {
-    remove(); 
+  // Clear the typed message
+  typedMessage = "";
+  // Start typing effect
+  typeWriter();
 }
+
 function typeWriter() {
+  // Append the next character to the typed message
   typedMessage += message.charAt(index);
   index++;
+  // Check if all characters have been typed
   if (index < message.length) {
+    // If not, schedule the next character to be typed
     setTimeout(typeWriter, typingSpeed);
   }
 }
