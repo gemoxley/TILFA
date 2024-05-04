@@ -1,7 +1,13 @@
 let img;
 let showImage = true;
+let customFont;
+let message = "Hello, world!";
+let typedMessage = "";
+let index = 0;
+let typingSpeed = 50; 
 
 function preload() {
+  customFont = loadFont('path/to/your/font.ttf');
   img = loadImage('Yellow Star.png');
 }
 function setup() {
@@ -16,7 +22,7 @@ function setup() {
   background(0, 0, 0, 0);
 }
 function draw() {
-    image(img, 0, 0, width, height);
+  image(img, 400, 400, 200, 200);
 }
 function mousePressed() {
     remove(); 
