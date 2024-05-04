@@ -51,16 +51,13 @@ h2{
 }
 .back{
     color: #44C7FF;
-    text-decoration: none;
 }
 .advance{
     color: #FFA7F6;
-    text-decoration: none;
 }
 .italic {
     font-style: italic;
     color: white;
-    text-decoration: none;
 }
 .blue{
     color: #44C7FF;
@@ -86,57 +83,57 @@ h2{
     width: 100%;
     margin: 0 auto;
 }
-.back a {
+.grid-container .back p a {
     text-decoration: none;
     color: #44C7FF;
 }
-.back a:hover {
+.grid-container .back p a:hover {
     text-decoration: underline;
 }
-.advance a {
+.grid-container .advance p a {
     text-decoration: none;
     color: #FFA7F6;
 }
-.advance a:hover {
+.grid-container .advance p a:hover {
     text-decoration: underline;
 }
 .think {
-    grid-column: 1 / span 8;
-    grid-row: 1 / span 8;
-    margin: 0;
-}
-.wish {
-    grid-column: 1 / span 8;
+    grid-column: 5 / span 8;
     grid-row: 2 / span 8;
     margin: 0;
 }
-.on {
-    grid-column: 1 / span 8;
+.wish {
+    grid-column: 5 / span 8;
     grid-row: 3 / span 8;
     margin: 0;
 }
-.freakout {
-    grid-column: 1 / span 8;
+.on {
+    grid-column: 2 / span 8;
     grid-row: 4 / span 8;
     margin: 0;
 }
+.freakout {
+    grid-column: 2 / span 8;
+    grid-row: 5 / span 8;
+    margin: 0;
+}
 .kid {
-    grid-column: 1 / span 8;
+    grid-column: 7 / span 8;
     grid-row: 5 / span 8;
     margin: 0;
 }
 .seven {
-    grid-column: 1 / span 8;
+    grid-column: 7 / span 8;
     grid-row: 6 / span 8;
     margin: 0;
 }
 .ly {
-    grid-column: 1 / span 8;
-    grid-row: 7 / span 8;
+    grid-column: 5 / span 8;
+    grid-row: 5 / span 8;
     margin: 0;
 }
 .street {
-    grid-column: 1 / span 8;
-    grid-row: 8 / span 8;
+    grid-column: 6 / span 8;
+    grid-row: 7 / span 8;
     margin: 0;
 }
