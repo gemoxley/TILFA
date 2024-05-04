@@ -63,7 +63,7 @@ h2{
     text-decoration: none;
 }
 .advance{
-    color: #FFA7F6;
+    color: #FFA7F6!important;
     text-decoration: none;
 }
 .italic {
@@ -119,3 +119,17 @@ h2{
     z-index: 1;
     position: relative;
   }
+.across a {
+    text-decoration: none;
+    color: #44C7FF;
+}
+.across a:hover {
+    text-decoration: underline;
+}
+.advance a {
+    text-decoration: none;
+    color: #FFA7F6;
+}
+.advance a:hover {
+    text-decoration: underline;
+}

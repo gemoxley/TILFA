@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
 body{
     background-image: url('Black_Paper\ 1.png');
     background-size: cover;
     background-position: center;
     margin: 0; 
     padding: 0; 
-}
-canvas-container {
-    width: 400px;
-    height: 400px;
 }
 canvas {
     display: block; 
@@ -87,28 +84,58 @@ h2{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     gap: 20px;
-    width: 100%;
+    width: 100%vw;
+    height: 100%vh;
     margin: 0 auto;
 }
-  .phrase{
+.phrase {
     grid-column: 2 / span 8;
-    grid-row: 2 / span 8;
-    margin: 0;
-  }
-  .life{
-    grid-column: 3 / span 8;
-    grid-row: 3 / span 8;
-    margin: 0;
-  }
-  .boston{
-    grid-column: 6 / span 8;
     grid-row: 4 / span 8;
     margin: 0;
-    z-index: 1;
-  }
-  .boston-star{
-    grid-column: 6 / span 8;
-    grid-row: 2 / span 8;
+}
+.life {
+    grid-column: 3 / span 6;
+    grid-row: 3 / span 6;
     margin: 0;
-    z-index: 2;
-  }
+}
+.love {
+    grid-column: 3 / span 6;
+    grid-row: 3 / span 6;
+    margin: 0;
+}
+.boston-star {
+    grid-column: 6 / span 2;
+    grid-row: 4/ span 3;
+    margin: 0;
+    z-index: 1;
+}
+.boston {
+    grid-column: 6 / span 2;
+    grid-row: 4 / span 4;
+    margin: 0;
+    z-index: 0;
+}
+.sexy {
+    grid-column: 3 / span 6;
+    grid-row: 2 / span 4;
+    margin: 0;
+}
+.beautiful {
+    grid-column: 3 / span 6;
+    grid-row: 6 / span 2;
+    margin: 0;
+}
+.life a {
+    text-decoration: none;
+    color: #44C7FF;
+}
+.life a:hover {
+    text-decoration: underline;
+}
+.love a {
+    text-decoration: none;
+    color: #FFA7F6;
+}
+.love a:hover {
+    text-decoration: underline;
+}

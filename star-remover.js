@@ -18,7 +18,7 @@ function setup() {
 function draw() {
   background(0, 0, 0, 0);
   image(img, 400, 400, 200, 200);
-  text(typedMessage, 50, 50);
+  text(typedMessage, 200, 200);
 }
 function mousePressed() {
   typedMessage = "";
