@@ -51,27 +51,16 @@ h2{
 }
 .back{
     color: #44C7FF;
+    text-decoration: none;
 }
 .advance{
     color: #FFA7F6;
-}
-.back a {
     text-decoration: none;
-    color: #44C7FF;
-}
-.back a:hover {
-    text-decoration: underline;
-}
-.advance a {
-    text-decoration: none;
-    color: #FFA7F6;
-}
-.advance a:hover {
-    text-decoration: underline;
 }
 .italic {
     font-style: italic;
     color: white;
+    text-decoration: none;
 }
 .blue{
     color: #44C7FF;
@@ -97,59 +86,8 @@ h2{
     width: 100%;
     margin: 0 auto;
 }
-.grid-container .back p a {
-    text-decoration: none;
-    color: #44C7FF;
-}
-.grid-container .back p a:hover {
-    text-decoration: underline;
-}
-.grid-container .advance p a {
-    text-decoration: none;
-    color: #FFA7F6;
-}
-.grid-container .advance p a:hover {
-    text-decoration: underline;
-}
-.think {
-    grid-column: 5 / span 8;
-    grid-row: 2 / span 8;
-    margin: 0;
-}
-.wish {
-    grid-column: 5 / span 8;
-    grid-row: 3 / span 8;
-    margin: 0;
-}
 .on {
     grid-column: 2 / span 8;
     grid-row: 4 / span 8;
-    margin: 0;
-}
-.freakout {
-    grid-column: 2 / span 8;
-    grid-row: 5 / span 8;
-    margin: 0;
-}
-.kid {
-    grid-column: 7 / span 8;
-    grid-row: 5 / span 8;
-    margin: 0;
-    z-index: 1;
-}
-.seven {
-    grid-column: 7 / span 8;
-    grid-row: 6 / span 8;
-    margin: 0;
-    z-index: 0;
-}
-.ly {
-    grid-column: 5 / span 8;
-    grid-row: 5 / span 8;
-    margin: 0;
-}
-.street {
-    grid-column: 6 / span 8;
-    grid-row: 7 / span 8;
     margin: 0;
 }
