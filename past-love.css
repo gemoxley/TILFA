@@ -100,10 +100,10 @@ h2{
 .advance a:hover {
     text-decoration: underline !important;
 }
-.sense {
+.one {
     grid-column: 2 / span 8;
     grid-row: 2 / span 8;
-    margin: 0;
+    margin: 1fr;
 }
 .pose a {
     text-decoration: none;
