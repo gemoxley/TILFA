@@ -29,9 +29,6 @@ p{
     color: white;
     font-size: 60px;
 }
-a{
-    text-decoration: none;
-}
 h1{
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
@@ -58,23 +55,18 @@ h2{
 .italic {
     font-style: italic;
     color: white;
-    text-decoration: none;
 }
 .blue{
     color: #44C7FF;
-    text-decoration: none;
 }
 .pink{
     color: #FFA7F6;
-    text-decoration: none;
 }
 .white{
     color: white;
-    text-decoration: none;
 }
 .gold{
     color: #FFCA41;
-    text-decoration: none;
 }
 .grid-container {
     display: grid;
@@ -127,16 +119,14 @@ h2{
     margin: 0;
 }
 .cry {
-    text-decoration: none;
     color: #44C7FF;
 }
 .cry hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
 }
 .fact {
-    text-decoration: none;
     color: #FFA7F6;
 }
 .fact hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
 }
