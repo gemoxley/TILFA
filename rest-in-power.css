@@ -80,29 +80,57 @@ h2{
     margin: 0 auto;
 }
 .blue-star {
+    grid-column: 1 / span 8;
+    grid-row: 2 / span 8;
+    margin: 1fr;
+}
+.power {
     grid-column: 2 / span 8;
     grid-row: 2 / span 8;
     margin: 1fr;
 }
-.special {
-    grid-column: 2 / span 8;
-    grid-row: 2 / span 8;
-}
 .pink-star {
+    grid-column: 3 / span 8;
+    grid-row: 2 / span 8;
+    margin: 1fr;
+}
+.alex {
     grid-column: 2 / span 8;
     grid-row: 2 / span 8;
 }
-.slept{
-    text-decoration: none;
-    color: #44C7FF;
+.diamond {
+    grid-column: 4 / span 8;
+    grid-row: 2 / span 8;
 }
-.slept:hover {
-    text-decoration: underline !important;
+.kitty {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
 }
-.sleep{
-    text-decoration: none;
-    color: #FFA7F6;
+.nex {
+    grid-column: 4 / span 8;
+    grid-row: 2 / span 8;
 }
-.sleep:hover {
-    text-decoration: underline !important;
+.meraxes {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+}
+.chevy {
+    grid-column: 4 / span 8;
+    grid-row: 2 / span 8;
+}
+.emma {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+}
+.lagend {
+    grid-column: 4 / span 8;
+    grid-row: 2 / span 8;
+}
+.river {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+}
+.andrea {
+    grid-column: 4 / span 8;
+    grid-row: 2 / span 8;
 }
