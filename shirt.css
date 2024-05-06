@@ -120,13 +120,15 @@ h2{
 }
 .cry {
     color: #44C7FF;
+    text-decoration: none;
 }
-.cry hover {
+.cry:hover {
     text-decoration: underline;
 }
 .fact {
     color: #FFA7F6;
+    text-decoration: none;
 }
-.fact hover {
+.fact:hover {
     text-decoration: underline;
 }
