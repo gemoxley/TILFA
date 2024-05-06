@@ -7,11 +7,6 @@ body{
     margin: 0; 
     padding: 0; 
 }
-canvas-container {
-    grid-column: 7 / span 8;
-    grid-row: 4 / span 8;
-    margin: 0;
-}
 canvas {
     display: block;
     position: absolute;
@@ -37,6 +32,7 @@ p{
     font-style: normal;
     color: white;
     font-size: 60px;
+    z-index: 1;
 }
 a{
     text-decoration: none;
@@ -61,10 +57,12 @@ h2{
 .back{
     color: #44C7FF;
     text-decoration: none;
+    z-index: 5 !important;
 }
 .advance{
     color: #FFA7F6!important;
     text-decoration: none;
+    z-index: 5 !important;
 }
 .italic {
     font-style: italic;
@@ -99,11 +97,13 @@ h2{
     grid-column: 2 / span 8;
     grid-row: 3 / span 8;
     margin: 0;
+    z-index: 5;
   }
   .yarberry {
     grid-column: 4 / span 8;
     grid-row: 7 / span 8;
     margin: 0;
+    z-index: 5;
 }
 .yarberry a {
     text-decoration: none;
@@ -116,8 +116,8 @@ h2{
     grid-column: 7 / span 8;
     grid-row: 4 / span 8;
     margin: 0;
-    z-index: 1;
     position: relative;
+    z-index: 5;
   }
 .across a {
     text-decoration: none;
