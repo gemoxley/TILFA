@@ -80,19 +80,17 @@ h2{
     margin: 0 auto;
 }
 .blue-star {
-    grid-column: 1 / span 8;
+    grid-column: 2 / span 8;
     grid-row: 2 / span 8;
     margin: 1fr;
 }
 .power {
     grid-column: 2 / span 8;
     grid-row: 2 / span 8;
-    margin: 1fr;
 }
 .pink-star {
-    grid-column: 3 / span 8;
+    grid-column: 2 / span 8;
     grid-row: 2 / span 8;
-    margin: 1fr;
 }
 .alex {
     grid-column: 2 / span 8;
