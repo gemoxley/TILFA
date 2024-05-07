@@ -117,17 +117,17 @@ h2{
 }
 .pose {
     grid-column: 7 / span 8;
-    grid-row: 5 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .compose {
     grid-column: 7 / span 8;
-    grid-row: 6 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .course {
     grid-column: 6 / span 8;
-    grid-row: 6 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .pose a {
