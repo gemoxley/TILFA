@@ -28,11 +28,11 @@ function draw() {
   imageMode(CENTER);
   push();
   translate(width/1.5, height/1.5);
-  rotationAngle += 0.01;
+  rotationAngle += 0.03;
   rotate(rotationAngle);
   image(img, 0, 0, 200, 200);
   pop();
-  fill('red');
+  fill('white');
   textWidth(500); 
   text(typedMessage, 50, height/2, 500);
   textWrap(WORD); 
