@@ -1,7 +1,7 @@
 let img;
 let showImage = true;
 let customFont;
-let message = "Boston Pride 2023";
+let message = "Circa 2007- I wore a bicycle helmet CONSTANTLY and refused to remove it.";
 let typedMessage = "";
 let index = 0;
 let typingSpeed = 50;
