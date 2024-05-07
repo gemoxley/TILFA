@@ -21,18 +21,17 @@ function draw() {
   background(0, 0, 0, 0);
   imageMode(CENTER);
   push();
-  translate(width / 1.5, height / 1.5);
-  rotationAngle += 0.1;
+  translate(width/1.5, height/1.5);
+  rotationAngle += 0.1; // Increment rotation angle
   rotate(rotationAngle);
   image(img, 0, 0, 200, 200);
   pop();
   fill('white');
-  wrapText(typedMessage, width / 1.9, height / 1.9, width / 3, 50);
+  text(typedMessage, width/1.9, height/1.9);
 }
 function mousePressed() {
-  if (dist(mouseX, mouseY, width / 1.5, height / 1.5) < 100) {
+  if (dist(mouseX, mouseY, width/1.5, height/1.5) < 100) {
     typedMessage = "";
-    index = 0;
     typeWriter();
   }
 }
@@ -42,20 +41,3 @@ function typeWriter() {
   if (index < message.length) {
     setTimeout(typeWriter, typingSpeed);
   }
-}
-function wrapText(text, x, y, maxWidth, lineHeight) {
-  let words = text.split(' ');
-  let line = '';
-  for (let i = 0; i < words.length; i++) {
-    let testLine = line + words[i] + ' ';
-    let testWidth = textWidth(testLine);
-    if (testWidth > maxWidth && i > 0) {
-      text(line, x, y);
-      line = words[i] + ' ';
-      y += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-  text(line, x, y);
-}
