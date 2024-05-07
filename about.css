@@ -77,18 +77,93 @@ h2{
     grid-template-rows: repeat(8, 1fr);
     gap: 20px;
     width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 .blue-star {
-    grid-column: 2 / span 8;
+    grid-column: 4 / span 8;
     grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
     margin: 1fr;
 }
-.special {
+.always {
     grid-column: 2 / span 8;
     grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.never {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.magic {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.america {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.people {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.youth {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.spirit {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.color {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.unhoused {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.protect {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+}
+.tilfa {
+    grid-column: 2 / span 8;
+    grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
 }
 .pink-star {
-    grid-column: 2 / span 8;
+    grid-column: 4 / span 8;
     grid-row: 2 / span 8;
+    justify-content: center;
+    align-items: center;
+    margin: 1fr;
+    padding: 50px;
 }
