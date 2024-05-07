@@ -153,17 +153,18 @@ h2{
     grid-row: 7 / span 8;
     margin: 0;
 }
-.on a {
+.on{
     text-decoration: none;
     color: #44C7FF;
 }
-.on a:hover {
+.on:hover {
     text-decoration: underline !important;
 }
 .ly a {
     text-decoration: none;
     color: #FFA7F6;
 }
-.ly a:hover {
+.ly:hover {
     text-decoration: underline !important;
+    color: #FFA7F6;
 }

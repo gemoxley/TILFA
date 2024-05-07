@@ -2,7 +2,7 @@ let img;
 let img2; 
 let showImage = true;
 let customFont;
-let message = "Boston Pride 2023";
+let message = "Circa 2007- I used to wear a bicycle helmet constantly and REFUSED to take it off.";
 let typedMessage = "";
 let index = 0;
 let typingSpeed = 50;
@@ -10,7 +10,7 @@ let rotationAngle = 0;
 
 function preload() {
   customFont = loadFont('JosefinSlab-Bold.otf');
-  img = loadImage('Boston-Star.png');
+  img = loadImage('Kid.png');
   img2 = loadImage('Black_Paper 1.png')
 }
 function setup() {
@@ -27,18 +27,18 @@ function draw() {
   background(img2);
   imageMode(CENTER);
   push();
-  translate(width/1.5, height/2.2);
+  translate(width/1.5, height/1.3);
   rotationAngle += 0.02;
   rotate(rotationAngle);
-  image(img, 0, 0, 500, 500);
+  image(img, 0, 0, 350, 350);
   pop();
   fill('white');
   textWidth(500); 
-  text(typedMessage, 900, height/4, 500);
+  text(typedMessage, 1200, height/3, 500);
   textWrap(WORD); 
 }
 function mousePressed() {
-  if (dist(mouseX, mouseY, width/1.5, height/2.2) < 100) {
+  if (dist(mouseX, mouseY, width/1.5, height/1.3) < 100) {
     typedMessage = "";
     typeWriter();
   }
