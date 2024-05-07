@@ -34,7 +34,7 @@ function draw() {
   pop();
   fill('white');
   textWidth(500); 
-  text(typedMessage, 800, height/4, 500);
+  text(typedMessage, 900, height/4, 500);
   textWrap(WORD); 
 }
 function mousePressed() {
