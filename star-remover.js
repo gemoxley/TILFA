@@ -22,7 +22,7 @@ function draw() {
   imageMode(CENTER);
   push();
   translate(width/1.5, height/1.5);
-  rotationAngle += 0.1; // Increment rotation angle
+  rotationAngle += 0.1;
   rotate(rotationAngle);
   image(img, 0, 0, 200, 200);
   pop();
