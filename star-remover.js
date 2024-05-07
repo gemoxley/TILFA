@@ -9,7 +9,7 @@ let typingSpeed = 50;
 let rotationAngle = 0;
 
 function preload() {
-  customFont = loadFont('JosefinSlab-VariableFont_wght-webfont.woff');
+  customFont = loadFont('JosefinSlab-Bold.otf');
   img = loadImage('Yellow Star.png');
   img2 = loadImage('Black_Paper 1.png')
 }
