@@ -16,6 +16,7 @@ html{
 }
 canvas {
     display: block; 
+    z-index: 5;
 }
 .beth-ellen-regular{
     font-family: "Beth Ellen", cursive;

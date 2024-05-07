@@ -1,7 +1,7 @@
 let img;
 let showImage = true;
 let customFont;
-let message = "To best navigate this site, click on blue links to go backwards and pink ones to go forward.";
+let message = "Boston Pride 2023";
 let typedMessage = "";
 let index = 0;
 let typingSpeed = 50;
