@@ -2,7 +2,7 @@ let img;
 let img2; 
 let showImage = true;
 let customFont;
-let message = "To best navigate this site, click on blue links to go backwards and pink ones to go forward.";
+let message = "Boston Pride 2023";
 let typedMessage = "";
 let index = 0;
 let typingSpeed = 50;
@@ -10,7 +10,7 @@ let rotationAngle = 0;
 
 function preload() {
   customFont = loadFont('JosefinSlab-Bold.otf');
-  img = loadImage('Yellow Star.png');
+  img = loadImage('Boston-Star.png');
   img2 = loadImage('Black_Paper 1.png')
 }
 function setup() {
@@ -27,18 +27,18 @@ function draw() {
   background(img2);
   imageMode(CENTER);
   push();
-  translate(width/1.5, height/1.5);
-  rotationAngle += 0.03;
+  translate(width/1.5, height/2.2);
+  rotationAngle += 0.02;
   rotate(rotationAngle);
-  image(img, 0, 0, 200, 200);
+  image(img, 0, 0, 500, 500);
   pop();
   fill('white');
   textWidth(500); 
-  text(typedMessage, 50, height/2, 500);
+  text(typedMessage, 800, height/4, 500);
   textWrap(WORD); 
 }
 function mousePressed() {
-  if (dist(mouseX, mouseY, width/1.5, height/1.5) < 100) {
+  if (dist(mouseX, mouseY, width/1.5, height/2.2) < 100) {
     typedMessage = "";
     typeWriter();
   }
