@@ -1,11 +1,19 @@
 var circleWidth = 30;
 var spacing = 55;
 function setup() {
-  createCanvas(400, 400);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0); 
+  canvas.style('z-index', '-1'); 
   frameRate (5);
 }
+function preload() {
+  customFont = loadFont('JosefinSlab-Bold.otf');
+  img = loadImage('Black_Paper 1.png')
+}
 function draw() {
-  background(0);
+  imageMode(CORNER);
+  background(img);
+  imageMode(CENTER);
   for (var x = 0; x < width; x += spacing) {
   for (var y = 0; y < width; y += spacing) {
       var wiggle = random(-15, 15);
