@@ -41,3 +41,4 @@ function typeWriter() {
   if (index < message.length) {
     setTimeout(typeWriter, typingSpeed);
   }
+}
