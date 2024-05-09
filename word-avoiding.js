@@ -1,3 +1,7 @@
+//I found this code snippet online- I think it was made by USF professor Liat Berdugo!
+// Like with a lot of the other code snippets, I've been making edits to suit my own projects.
+// https://editor.p5js.org/lberdugo/sketches/STyuU73Vz
+
 let shapes = [];
 let poem = ["One", "past", "love", "pushed", "me", "against", "the", "wall"];
 let numberOfShapes = 25;
