@@ -23,14 +23,14 @@ function draw() {
     transparency = 0;
   }
   fill(255,transparency);
-  text("Alex Taylor Franco", -350, 100);
-  text("Diamond Brigman", -350, 200);
-  text("Kitty Monroe", -350, 300);
-  text("Nex Benedict", -350, 400);
-  text("Meraxes Medina", -350, 500);
-  text("Righteous TK 'Chevy' Hill", 350, 100);
-  text("Emma Garcia", 350, 200);
-  text("Tee 'Lagend Billions' Arnold", 350, 300);
-  text("River Nevaeh Goddard", 350, 400);
-  text("Andrea Doria Dos Passos", 350, 500);
+  text("Alex Taylor Franco", -350, 300);
+  text("Diamond Brigman", -350, 400);
+  text("Kitty Monroe", -350, 500);
+  text("Nex Benedict", -350, 600);
+  text("Meraxes Medina", -350, 700);
+  text("Righteous TK 'Chevy' Hill", 350, 300);
+  text("Emma Garcia", 350, 400);
+  text("Tee 'Lagend Billions' Arnold", 350, 500);
+  text("River Nevaeh Goddard", 350, 600);
+  text("Andrea Doria Dos Passos", 350, 700);
 }
