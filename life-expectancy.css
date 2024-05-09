@@ -120,22 +120,22 @@ h2{
 }
 .sexy {
     grid-column: 2 / span 8;
-    grid-row: 4 / span 8;
+    grid-row: 3 / span 8;
     margin: 0;
 }
 .beautiful {
     grid-column: 2/ span 8;
-    grid-row: 6 / span 8;
+    grid-row: 3 / span 8;
     margin: 0;
 }
 .life {
     grid-column: 6 / span 8;
-    grid-row: 6 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .love {
     grid-column: 6 / span 8;
-    grid-row: 6 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .life a {

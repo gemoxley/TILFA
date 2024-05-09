@@ -123,12 +123,12 @@ h2{
 }
 .on {
     grid-column: 2 / span 8;
-    grid-row: 4 / span 8;
+    grid-row: 3 / span 8;
     margin: 0;
 }
 .freakout {
     grid-column: 2 / span 8;
-    grid-row: 5 / span 8;
+    grid-row: 4 / span 8;
     margin: 0;
 }
 .kid {
@@ -149,8 +149,8 @@ h2{
     margin: 0;
 }
 .street {
-    grid-column: 6 / span 8;
-    grid-row: 7 / span 8;
+    grid-column: 7 / span 8;
+    grid-row: 5 / span 8;
     margin: 0;
 }
 .on{
