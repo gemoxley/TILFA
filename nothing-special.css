@@ -79,16 +79,18 @@ h2{
     width: 100%;
     margin: 0 auto;
 }
-.blue-star {
-    grid-column: 2 / span 8;
-    grid-row: 2 / span 8;
-    margin: 1fr;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blue-star, .special, .pink-star {
+    margin: 10px;
+}
+.blue-star, .pink-star {
+    flex: 1;
 }
 .special {
-    grid-column: 2 / span 8;
-    grid-row: 2 / span 8;
-}
-.pink-star {
-    grid-column: 2 / span 8;
-    grid-row: 2 / span 8;
+    flex: 2;
 }
