@@ -4,17 +4,17 @@ body{
     background-image: url('Black_Paper\ 1.png');
     background-size: cover;
     background-position: center;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 canvas {
-    display: block; 
+    display: block;
 }
 .beth-ellen-regular{
     font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 .josefin-slab-bold{
   font-family: "Josefin Slab", serif;
   font-optical-sizing: auto;
@@ -27,7 +27,8 @@ p{
     font-weight: 700;
     font-style: normal;
     color: white;
-    font-size: 60px;
+    font-size: 20px;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -82,15 +83,33 @@ h2{
 .flex-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
 }
-.blue-star, .special, .pink-star {
-    margin: 10px;
+.placing{
+    grid-column: 3 / span 8;
+    grid-row: 2 / span 8;
+    margin: 0;
 }
-.blue-star, .pink-star {
-    flex: 1;
+.blue-star{
+    flex-basis: calc(20% - 40px);
+    margin: 20px;
+    height: auto;
+    display: block;
 }
-.special {
-    flex: 2;
+.pink-star{
+    flex-basis: calc(20% - 40px);
+    margin: 20px;
+    height: auto;
+    display: block;
+}
+body {
+    background-image: url('Black_Paper 1.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Slab", serif;
 }
