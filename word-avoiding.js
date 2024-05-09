@@ -1,6 +1,6 @@
 let shapes = [];
 let poem = ["One", "past", "love", "pushed", "me", "against", "the", "wall"];
-let numberOfShapes = 8;
+let numberOfShapes = 25;
 let mouseThreshold = 15;
 let moveDistance = 100;
 let animateDistance = 100;
@@ -10,7 +10,7 @@ class Shape {
   constructor() {
     this.x = random(0, windowWidth);
     this.y = random(0, windowHeight);
-    this.radius = random(10, 20);
+    this.radius = random(30, 50);
     this.color = color(255);
     this.word = poem[floor(random(poem.length))]
   }
