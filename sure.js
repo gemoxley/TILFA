@@ -19,9 +19,9 @@ function setup() {
 }
 function draw() {
     imageMode(CORNER);
+    translate(width/1.5, height/1.5);
     background(img);
     imageMode(CENTER);
-    translate(50,300);
   for (let i = 0; i < points.length; i++) {
     let x = points[i].x + random(-wiggle, wiggle);
     let y = points[i].y + random(-wiggle, wiggle);
