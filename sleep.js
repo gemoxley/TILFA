@@ -17,10 +17,11 @@ function draw() {
     imageMode(CORNER);
     background(img);
     imageMode(CENTER);
-  transparency -= 0.5;
+    translate(width/1.9, height/32);
+    transparency -= 0.5;
   if (transparency < 0) {
     transparency = 0;
   }
-  fill(0,transparency); 
+  fill(255,transparency); 
   text("It’s not that I became anything.", 50, 100);
 }

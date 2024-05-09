@@ -20,7 +20,6 @@ function setup() {
   textFont(customFont);
   textSize(60);
   textStyle(BOLD);
-
 }
 function draw() {
   imageMode(CORNER);
