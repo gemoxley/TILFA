@@ -1,7 +1,7 @@
 //Thank you to p5.js user @zhiying0819 for the base of the code!
 
 const word = "Sure.";
-const fSize = 200; 
+const fSize = 300; 
 
 let myFont;
 let points;
@@ -24,13 +24,13 @@ function setup() {
 }
 function draw() {
   imageMode(CORNER);
-  translate(width/1.5, height/1.5);
+  translate(width/1.95, height/1.5);
   background(img);
   imageMode(CENTER);
   for (let i = 0; i < points.length; i++) {
     let x = points[i].x + random(-wiggle, wiggle);
     let y = points[i].y + random(-wiggle, wiggle);
     fill(pointColors[i]);
-    ellipse(x, y, 5);
+    ellipse(x, y, 7);
   }
 }
