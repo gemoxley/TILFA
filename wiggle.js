@@ -1,5 +1,8 @@
+//Thank you to p5.js user @melandin for helping with the base of the code!
+
 var circleWidth = 30;
 var spacing = 55;
+
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0); 
@@ -29,4 +32,3 @@ function draw() {
     }
   }
 }
-//Thank you to p5.js user @melandin for helping with the base of the code!
